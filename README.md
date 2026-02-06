@@ -2,7 +2,7 @@
 
 React application for product management system.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -17,12 +17,11 @@ cd lired-frontend
 npm install
 
 # 3. Configure environment
-# Create .env file with:
-REACT_APP_API_BASE_URL=http://localhost:5000/api
+env file added in repo already
 
 # 4. Start development server
 npm start
-```
+
 
 Visit **http://localhost:3000**
 
@@ -41,6 +40,5 @@ npm test        # Run tests
 - Check `.env` file has correct API URL
 - Restart after changing `.env`
 
----
 
 Built with React + React Router + Axios
