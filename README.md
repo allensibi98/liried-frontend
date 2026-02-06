@@ -10,7 +10,6 @@ React application for product management system.
 
 ### Setup & Run
 
-```bash
 # 1. Navigate to frontend directory
 cd lired-frontend
 
@@ -31,20 +30,11 @@ Visit **http://localhost:3000**
 - Username: `admin`
 - Password: `admin123`
 
-## 📝 Scripts
 
-```bash
 npm start       # Start dev server
 npm run build   # Build for production
 npm test        # Run tests
-```
 
-## 🐛 Common Issues
-
-**Port already in use:**
-```bash
-lsof -ti:3000 | xargs kill -9
-```
 
 **Cannot connect to backend:**
 - Ensure backend is running on port 5000
